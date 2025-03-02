@@ -3,155 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum - Programador/a Web</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Portafolio - Luis Mula Márquez</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Currículum - Juan Pérez</a>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Luis Mula Márquez</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#formacion">Formación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
     
-    <!-- Sección de Perfil -->
-    <section class="container my-5 text-center">
-        <img src="./img/WhatsApp Image 2025-02-20 at 15.59.11.jpg" class="rounded-circle" alt="Perfil" width="200" height="300">
-        <h1 class="my-3">Luis Mula Márquez</h1>
-        <p class="lead">Desarrollador Web Full Stack</p>
-        <p>Joven entusiasta de 18 años con formación en Sistemas Microinformáticos y Redes (SMR) y actualmente cursando un ciclo superior en Desarrollo de Aplicaciones Web (DAW). Apasionado por la programación y el mundo tecnológico, destaco por mi capacidad para aprender rápidamente, resolver problemas de manera eficiente y trabajar en equipo.</p>
-        <a href="https://drive.google.com/uc?export=download&id=1urkYztcMXvOEvlIGwuqOwr1XcbK6Jh7f" class="btn btn-primary" download>Descargar Currículum</a>
-    </section>
+    <div class="container-box">
+        <img src="./img/FotoLuis.jpg" class="profile-pic" alt="Foto de perfil">
+        <h1>Bienvenido a mi Portafolio</h1>
+        <p>Desarrollador apasionado por la tecnología y el aprendizaje continuo</p>
+    </div>
     
-    <!-- Sección de Habilidades -->
-    <section class="container my-5">
-        <h2 class="text-center mb-4">Habilidades</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card p-3">
-                    <div class="card-body">
-                        <h5 class="card-title">Frontend</h5>
-                        <ul class="list-unstyled">
-                            <li>Java</li>
-                            <li>Python</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card p-3">
-                    <div class="card-body">
-                        <h5 class="card-title">Backend</h5>
-                        <ul class="list-unstyled">
-                            <li>HTML5, CSS3</li>
-                            <li>JavaScript</li>
-                            <li>Bootstrap 5</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card p-3">
-                    <div class="card-body">
-                        <h5 class="card-title">Bases de Datos</h5>
-                        <ul class="list-unstyled">
-                            <li>MySQL</li>
-                            <li>OracleDB</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Sección de Experiencia Laboral -->
-    <section class="container my-5">
-        <h2 class="text-center mb-4">Experiencia Laboral</h2>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card p-3 mb-3">
-                    <div class="card-body">
-                        <h5 class="card-title">Trabajo freelancer en workana</h5>
-                        <p class="card-text">Sep. 2024 - Actualidad · 6 meses</p>
-                        <p> 
-                            Realicé funciones de mantenimiento telemático, 
-                            creación de paginas web con conocimientos Front-end,
-                            redacción de documentación y blogs.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card p-3 mb-3">
-                    <div class="card-body">
-                        <h5 class="card-title">Desarrollador Full Stack - Empresa ABC</h5>
-                        <p class="card-text">Mar. 2024 - Jun. 2024 · 4 meses</p>
-                        <p>
-                            Realicé funciones como resolución de incidencias y gestión de tickets, 
-                            mantenimiento de equipos informáticos y configuración de sistemas.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Sección de Proyectos -->
-    <section class="container my-5">
-        <h2 class="text-center mb-4">Proyectos</h2>
-
-    <div class="container">
-
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-              <div class="card-body">
-                <h5 class="card-title text-center">Aplicación de Inscripción a gimnasio</h5>
-                <p class="card-text text-center">Creación de un proyecto personal sobre una pagina web de un gimnasio con sus instalaciones, área de contacto, una calculadora de grasa corporal e inicios de sesión.</p>
-                <div class="d-flex justify-content-center align-items-center">
-                  <div class="btn-group ">
-                    <a href="https://github.com/acabbuz/titanfitness-repo" class="btn btn-sm btn-outline-secondary" target="_blank">Ver proyecto</a>                  
+    <div class="container-box">
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>Joven entusiasta con formación en Sistemas Microinformáticos y Redes (SMR), actualmente cursando Desarrollo de Aplicaciones Web (DAW). Me apasiona la programación y la tecnología.</p>
+        </section>
+        
+        <section id="experiencia">
+            <h2>Experiencia</h2>
+            <ul class="list-unstyled">
+                <li>Freelancer en Workana (Sep. 2024 - Actualidad)</li>
+                <li>Soporte en Control de Transparencia y Protección de Datos de Andalucía (Mar. 2024 - Jun. 2024)</li>
+            </ul>
+        </section>
+        
+        <section id="formacion">
+            <h2>Formación</h2>
+            <ul class="list-unstyled">
+                <li>Grado Superior DAW - IES Jacarandá (2024 - Actualidad)</li>
+                <li>Grado Medio SMR - IES Ramón y Cajal (2022 - 2024)</li>
+            </ul>
+        </section>
+        
+        <section id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skill-item"><img src="./img/Git.png" alt="Git"></div>
+            <div class="skill-item"><img src="./img/lenguajesDeMarcas.png" alt="HTML/CSS/JAVASCRIPT"></div>
+            <div class="skill-item"><img src="./img/PythonJava.png" alt="Java"></div>
+            <div class="skill-item"><img src="./img/Boostrap.png" alt="Boostrap"></div>
+            <div class="skill-item"><img src="./img/DOCKER, MONGODB.png" alt="Dokcer/MongoDB"></div>
+            <div class="skill-item"><img src="./img/MysqlJUnit.png" alt="Mysql/Junit"></div>
+            <div class="skill-item"><img src="./img/VSC, Eclipse, Dbeaver.png" alt="MySQL"></div>
+            <div class="skill-item"><img src="./img/ORACLE.png" alt="Oracle"></div>
+        </section>
+        <section id="proyectos" class="container my-5 text-center section-box">
+          <h2>Proyectos Realizados</h2>
+          <div class="row justify-content-center">
+              <div class="col-md-4">
+                  <div class="card">
+                      <img src="./img/titanfitness.png" class="card-img-top" alt="Proyecto 1">
+                      <div class="card-body">
+                          <h5 class="card-title">TITANFITNESS</h5>
+                          <p class="card-text">Creación de un proyecto personal sobre una pagina web de un gimnasio con sus instalaciones, área de contacto, una calculadora de grasa corporal con implementación de JAVASCRIPT e inicios de sesión. </p>
+                          <a href="https://github.com/acabbuz/titanfitness-repo" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+                      </div>
                   </div>
-                </div>
               </div>
-            </div>
           </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
     
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center p-4">
-        <p>&copy; 2025 Juan Pérez - Todos los derechos reservados.</p>
-        <p>Contacto: <a href="mailto:juanperez@gmail.com" class="text-white">juanperez@gmail.com</a></p>
+    <section id="contacto" class="container my-5 text-center section-box">
+          <h2>Contacto</h2>
+          <ul class="list-unstyled">
+              <li>Email: <a href="mailto:luismulamarquez@gmail.com">luismulamarquez@gmail.com</a></li>
+              <li>Mi LinkedIn: <a href="#">LinkedIn</a></li>
+              <li>Mi GitHub: <a href="#">GitHub</a></li>
+              <li>Mi perfil de Workana: <a href="#">Workana</a></li>
+          </ul>
+      </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Luis Mula Márquez - Todos los derechos reservados</p>
     </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
