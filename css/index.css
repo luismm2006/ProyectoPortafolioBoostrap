@@ -1,13 +1,34 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
 body {
-    background-color: #f8f9fa;
-    color: #343a40;
+    background-color: rgba(243, 243, 243, 0.863);
+    color: #000000;
 }
 .navbar {
     background-color: #000000 !important;
 }
+.Presentacion{
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
 }
+@media (max-width: 768px) {
+    .Presentacion img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover; /* Opcional: asegura que la imagen se recorte bien sin deformarse */
+    }
+}
+
 .nav-link{
     font-size: 20px;
     text-decoration: none;
@@ -16,10 +37,23 @@ body {
     color: white;
 }
 .nav-link:hover {
-    border-bottom: 4px solid #f8f9fa;
-    color: #00F7C7;
+    border-bottom: 2px solid #f8f9fa;
     transition: 0.2s;
 }
+.scroll-indicator {
+  font-size: 100px;
+  animation: bounce 1.5s infinite; 
+  margin-top: 80px;
+}
+
+@keyframes bounce {
+    0%, 100% {
+    transform: translateY(0);
+    }
+    50% {
+    transform: translateY(10px);
+}}
+
 .container-box {
     background-color: #ffffff;
     padding: 20px;
@@ -29,27 +63,66 @@ body {
     max-width: 900px;
     text-align: center;
 }
+.fw-bold {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
 .profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 15px;
 }
-.skill-item {
+.habilidades {
+    padding: 50px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+.formacion-experiencia {
+    padding: 100px;
+}
+
+#sobre-mi{
+    padding: 100px;
+}
+#sobre-mi h2{
+    margin-bottom: 100px;
+}
+#experiencia{
+    padding: 100px;
+}
+#experiencia h2{
+    margin-bottom: 100px;
+}
+#formacion{
+    padding: 100px;
+}
+#formacion h2{
+    margin-bottom: 100px;
+}
+#formacion{
+    padding: 100px;
+}
+#proyectos h2{
+    margin-bottom: 100px;
+}
+#contacto h2{
+    margin-bottom: 100px;
 }
 .skill-item img {
     width: 200px;
     height: 100px;
 }
 footer {
-    background-color: #343a40;
+    background-color: #000000;
     color: #ffffff;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+}
+.card img{
+    width: 100%;
+    height: 200px;
 }
